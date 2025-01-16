@@ -1,0 +1,254 @@
+p{font-family :'Oswald'}
+#ch, #lab_petit, .menu_petit{
+    display: none;
+} 
+.liste {
+    font-size: 24px;
+}
+.img_princi { 
+    width: 100%;
+    height:auto ;
+}
+footer{
+    background-color: #17133f;
+    width:100%;
+    position: absolute;
+    left: 0;
+    color: goldenrod;
+}
+ul.menu_grand {
+    list-style: none;color: #e4d9f9;
+    display:flex;
+}
+td{
+    color:#e4d9f9 ;
+    font-size: 30px;
+}
+.style-hori {
+    display: block;
+    position: relative;
+    margin-left: 5%;
+    padding: 10px;
+    top: -10px;
+}
+
+.color-change-2x:hover {
+	-webkit-animation: color-change-2x 0.3s ease-in-out forwards;
+	        animation: color-change-2x 0.3s ease-in-out forwards;
+}
+
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #974ddb;
+    }
+    100% {
+      background: #22a6bd;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #974ddb;
+    }
+    100% {
+      background: #22a6bd;
+    }
+  }
+  
+.style-hori:hover {
+    display:block;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    top: -10px;
+    -webkit-animation: color-change-2x 0.3s ease-in-out forwards;
+	        animation: color-change-2x 0.3s ease-in-out forwards;
+}
+header a:visited{
+    color:#e4d9f9
+}
+header a:link{
+    color:#e4d9f9
+}
+a:visited{
+    color: #974ddb;
+}
+a:link{
+    color: #e4d9f9;
+}
+a {display: block}
+.sprite-tete_cv {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 425px;
+    height: 391px;
+    background-position: -5px -5px;
+}
+
+
+ul.menu-vertical > li:hover {
+    width: auto; height: auto;
+    background: url('backmenu.png') -5px -5px;
+    background-repeat: no-repeat;
+}
+
+ul.menu-vertical > li:active{
+    width: auto; height: auto;
+    background: url('backmenu.png') -822px -5px;
+    background-repeat: no-repeat;
+}
+
+.menu-vertical{
+    list-style: none;color: #e4d9f9;position: fixed;top: 50%;left: 0;
+    background: url("menu-verti.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 5px;
+    margin: auto;
+    background-position: right;
+
+}
+.element-menu {color:#e4d9f9}
+header {
+            background: linear-gradient(135deg, #4b0082, #8a2be2);
+            color: #ffffff;
+            padding: 20px;
+            width: 100%; 
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            height: 5%;
+        }
+body {
+            background-color: #2e004f; 
+            color: #e4d9f9;
+            padding-top:80px;
+            padding-left:60px
+        }
+
+section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background: rgba(62, 0, 95, 0.8); 
+            width: 600px;
+            scroll-margin-top: 100px;
+            box-shadow: 10px 5px 5px #1a002c;
+        }
+        h1, h2, h3 {
+            color: #bb86fc;
+          text-align: center ;
+          font-family: 'Roboto Condensed';
+        }
+h1{
+    font-size: 50;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+body > p {text-align: center ;margin-left:10%;margin-right:10%;margin-bottom:40px; font-size: 24px;}
+
+section> h1 , section > p {text-align: left}
+section> h2 {
+    font-size: 36px;
+}
+section > p{
+    font-size: 20px;
+}
+.logo {
+width: 40px;
+height: auto;
+}
+
+.te ,.rob ,.ky{
+    display: none;
+}
+
+.te_noir,.rob_noir ,.ky_noir {
+    width: 100%;
+    height: auto;
+}
+.tetris:hover .te{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.tetris:hover .te_noir{
+    display: none;
+}
+
+.robot:hover .rob{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.robot:hover .rob_noir{
+    display: none;
+}
+
+.kyoto:hover .ky{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.kyoto:hover .ky_noir{
+    display: none;
+}
+
+footer >ul {
+    font-size:26px;
+    padding-left: 45%;
+    padding-right: 50%;
+}
+
+@media (max-width: 600px) {
+    .menu_grand, .menu_grand>li {
+        display: none;
+    }
+
+    #lab_petit {
+        text-align: left;
+        display:flex;
+        color:white;
+        border-radius: 30px;
+        padding: 10px;
+        position: relative;
+        top:-40px
+    }
+    #ch:checked + .menu_petit {
+        display: block;
+        position: relative;
+        left:10px;
+        list-style: none;
+        top:-40px;
+        background-color: gray;
+        width: fit-content;
+    }
+    .logo2 {
+        background-color: gray;
+        width: 40px;
+        height: auto;
+    }
+    #ch:checked + .menu_petit >li {
+        position: relative;
+        left: -40px;
+        padding-left: -70px;
+    }
+
+    p,body > p,section>p {
+        font-size: 14px;
+    }
+    h1, section> h1 {
+        font-size: 24px;
+    }
+    h2, section> h2 {
+        font-size: 20px;
+    }
+
+    section {
+        width: 80%;
+    }
+}
