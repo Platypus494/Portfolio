@@ -1,161 +1,614 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Portfolio </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="portfolio.css">
-  </head>
-<body>
-  <header>
-    <ul class="menu_grand">
-      <li style="margin-left:-50px ;">VENDEMAN--LARBI BEN HAMMOU Matéo </li> 
-      <li class="style-hori"><a href="index.html" class="element-menu">Portfolio</a></li>
-      <li class="style-hori"><a href="cv.html" class="element-menu" >CV</a></li> 
-    </ul>
 
-    <label for="ch" id="lab_petit"><img src="menu.png" class="logo2"></label>
-    <input type="checkbox" id="ch"/>
-    <ul class="menu_petit">
-      <li class="style-hori"><a href="index.html" class="element-menu">Portfolio</a></li>
-      <li class="style-hori"><a href="cv.html" class="element-menu" >CV</a></li> 
-    </ul>
-  </header>
-  <ul class="menu-vertical">
-    <li><a href="#home" class="element-menu" ><img src="home.png" class="logo"></a></li>
-    <li><a href="#Competences" class="element-menu"><img src="competence.png" class="logo"></a></li>
-    <li><a href="#Loisir" class="element-menu"><img src="hobbies.png" class="logo"></a></li>
-  </ul>
-  <table id="home">
-    <tr>
-<td><h1 style="padding-bottom: 0px;">Matéo</h1>
-    <h1 style="padding-top: 0;">VENDEMAN--LARBI BEN HAMMOU</h1>
-  </td>
-  <td>
-    <img src="tete_cv.png" class="img_princi">
-  </td>
-</tr>
-</table>
-  <h1 style="padding-top: 150px;">A propos de moi</h1>
-  <p>
-    Je m'appelle Matéo VENDEMAN--LARBI BEN HAMMOU, et je suis un étudiant en BUT informatique spécialisé en développement logiciel qui recherche actuellement un stage ou une alternance dans le développement de logiciels ou de jeux vidéo.<br>
-    Je suis une personne sérieuse et motivée,toujours prête à apprendre et à approfondir mes connaissances chaque jour dans ces domaines.
-  </p>
-  
-  <h1 style="text-align: left;padding-top: 100px;">
-      Formation
-    </h1>
-  <table cellspacing="30px">
-    <tr>
-      <td rowspan="2"> <img src="fle.png" height="200px"></td>
-    <td>
-    <p>
-      Université Gustave Eiffel :<b>BUT informatique</b> 2024-2027 </br>
-    </p>
-    </td>
-    </tr>
-    <tr>
-      <td>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+  <input type="checkbox" id="check_pop_up1" />
+  <input type="checkbox" id="check_pop_up2" />
+  <input type="checkbox" id="check_pop_up3" />
+  <input type="checkbox" id="check_pop_up4" />
+  <input type="checkbox" id="check_pop_up5" />
+  <input type="checkbox" id="check_pop_up6" />
+  <input type="checkbox" id="check_pop_up7" />
+  <input type="checkbox" id="check_pop_up8" />
+  <div class="page">
+    <header>
+      <nav class="menu_header">
+        <div class="lien">
+        <ul>
+          <li><a href="portfolio.html" class="logo"><img src="img/home.svg"></a></li>
+          <li><a href="#profil">Profil </a></li>
+          <li><a href="#projet">Projets</a></li>
+          <li><a href="CV.html">CV</a></li>
+          <li><a href="#contact">Me contacter</a></li>
+        </ul>
+        </div>
+        <div class="langues">
+          <ul>
+            <li><a href="portfolio.html" class="logo"><img src="img/FR.png"></a></li>
+            <li><a href="portfolio.html" class="logo"><img src="img/UK.png"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <div class="Presentation">
+      <div class="intro">
+        <h1>Matéo </br><b>VENDEMAN--LARBI BEN HAMMOU</b></h1>
         <p>
-      <b>Bac générale mention très bien 2023-2024 :</b> <br>
-      Spécialités :Mathématiques et NSI <br>
-      Section européenne (anglais) <br>
-    </p>
-      </td>
-      <br>
-    </tr> 
-    </table>
-    <h1 style="text-align: left;padding-bottom: 10px;">Expérience professionnelle</h1>
-    <p style="text-align: left;font-size: 30px;">
-    Stage dans une agence immobilière (Immo93)
-    </p>
-  <h1 style="text-align: left;" id="Competences"> Compétences </h1>
-  <section>
-<h2>Compétences linguistiques</h2>
-<p>
-  Je suis actuelement C1 en anglais et B2+ en espagnol <br>
-  Néanmoins je voudrais apprendre d'autre langues à l'avenir comme l'italien et le japonais.  
-</p>
-</section>
-  <table width="100%">
-    <tr>
-      <td> </td>
-      <td width="60%">
+          Je suis un futur développeur, passionné par la création de jeux vidéo et le développement full-stack.
+          Actuellement en 1er année de BUT Informatique à l’Université Gustave Eiffel, je suis à la recherche d’une
+          alternance en développement logiciel, web ou jeu vidéo à partir de septembre 2025, avec un rythme de 1 semaine
+          sur 2 en entreprise.
+        </p>
+        <a href="#contact" class="button">Me contacter</a>
+      </div>
+      <img src="img/tete_cv.png" alt="Photo de profil">
+    </div>
+
+    <div id="profil" class="savoir_plus">
+      <h1>En savoir plus </h1>
+      <div class="Menu_competence">
+        <input type="radio" name="slider" id="Competence" checked>
+        <input type="radio" name="slider" id="Language">
+        <input type="radio" name="slider" id="Programmation">
+        <input type="radio" name="slider" id="Outils">
+        <nav>
+          <label for="Competence" class="Competence">Compétences</label>
+          <label for="Language" class="Language">Languages</label>
+          <label for="Programmation" class="Programmation">Programmation</label>
+          <label for="Outils" class="Outils">Outils</label>
+          <div class="slider"></div>
+        </nav>
         <section>
-          <h2>Languages de programmation</h2>
-          <p>
-            Je suis en voie d'acquisition de c'est languages :<br><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/172px-Python-logo-notext.svg.png style="width:100px;height:100px;">
-            <img src="HTML.png" style="width:100px;height:100px;"> <img src="css.png" style="width:100px;height:100px;"> <img src="SQL.png" style="width:200px;height:100px;">
-          </p>
+          <div class="contenu contenu_comp">
+            <h2>Mes Compétences</h2>
+            <ul>
+              <li>Curieux et rigoureux</li>
+              <li>Bonne capacité d’adaptation</li>
+              <li>Esprit d’équipe</li>
+              <li>Persévérant</li>
+              <li>Organisé et autonome</li>
+              <li>À l’aise à l’oral</li>
+            </ul>
+          </div>
+          <div class="contenu contenu_lang">
+            <h2>Languages</h2>
+            <ul>
+              <li><b>Anglais</b> : Niveau <b>C1</b> Section européenne, bon niveau de compréhension et d'expression</li>
+              <li><b>Espagnol</b> : Niveau <b>B2</b> Compétences solides</li>
+            </ul>
+          </div>
+          <div class="contenu contenu_prog">
+            <h2>Mes langages de programmation</h2>
+            <ul>
+              <li><b>Python / C</b> : Conception d’algorithmes, mini-jeux (ex. Tetris)</li>
+              <li> <b>Java</b> : Développement d'applications orientées objet</li>
+              <li><b>HTML / CSS / PHP</b> : Création de sites web dynamiques et responsive</li>
+              <li><b>SQL</b> : Conception et gestion de bases de données</li>
+            </ul>
+          </div>
+          <div class="contenu contenu_outils">
+            <h2>Mes outils</h2>
+            <ul>
+              <li>Figma</li>
+              <li>Git / gitHub</li>
+              <li>phpMyAdmin</li>
+              <li>PyCharm</li>
+              <li>Visual Studio Code</li>
+              <li>Eclipse</li>
+              <li>GanttProject</li>
+              <li>Looping</li>
+            </ul>
+          </div>
         </section>
-      </td>
-   </tr>
-  </table>
-  <section>
-    <h2>Compétences</h2>
-    <p>
-      je suis compétent pour :
-      <ul class="liste">
-      <li>Travailler en équipe</li>
-      <li>M'organiser</li>
-      <li>Résoudre des problèmes</li>
-      <li>M'adapter</li>
-    </ul>
-    </p>
-  </section>
-  <h1 id =projets>Mes projets</h1>
-  <section class="tetris">
-    <img src="tetris.png" class="te">
-    <img src="tetris_noir.png" class="te_noir">
-    <h2>Création de tetris en python</h2>
-    <p>Pour réaliser ce projet je me suis contraint a utiliser uniquement les modules time et fltk. De plus j'ai ajouté à ce tetris des modes comme un mode qui supprime toutes les x secondes un bloc ou un mode 2 joueurs. A l'avenir je voudrais rajouter un mode dans lequel une intelligence artificielle joue contre nous.Pour finir ce projet m'a appris à mieux organiser mon code et à mieux gérer mon temps. 
-    </p>
-  </section>
-  <table width="100%">
-    <tr>
-      <td> </td>
-      <td width="60%">
-        <section class="robot">
-          <img src="robot.png" class="rob">
-          <img src="robot_noir.png" class="rob_noir">
-          <h2>Creation et programmation d'un robot</h2>
-          <p>
-            Pour ce projet on devait programmer et construire un robot et le programmer pour qu'il fasse un parcours. Ce projet en soit n'avait pas une grande compléxité technique mais il m'a permis d'améliorer grandement mes talents pour gérer une équipe car c'était la première fois que j'était chef de projet pour une équipe de 6 personnes.
-          </p>
-        </section>
-      </td>
-   </tr>
-  </table>
-  <section class="kyoto">
-    <img src="ky.png" class="ky" style="height: 600px;">
-    <img src="ky_noir.png" class="ky_noir" style="height: 600px;">
-    <h2>Création d'un site internet en partenariat avec l'unesco</h2>
-    <p>Ce projet fut un excellent moyen de découvrir le monde du travail car nous avons par exemple pu utiliser divers logiciels comme figma et gantt et nous avons pu faire des études sur le public ciblé à l'aide de personna.
-    </p>
-  </section>
-  <h1 id="Loisir">Mes loisirs </h1>
-  <section>
-    <h2>Mes loisirs </h2>
-    <p> 
-      <img src=https://svgsilh.com/svg/1837422.svg style="width:100px;height:100px;">Je suis passionné par les jeux vidéo et leurs créations depuis mon enfance. C'est pour cela que je cherche actuellement à découvrir les méthodes utilisées afin de créer ces jeux video ainsi que quelle sont les nouvelles technologies utilisées pour les créer<br>  
-      <img src=https://svgsilh.com/svg_v2/2023339.svg style="width:100px;height:100px;">J'ai également commencé à me mettre activement à la musculation <br>
-      Pour finir, en général je passe la plupart de mon temps à chercher à m'améliorer dans tous les domaines possibles. 
-    </p>
-  </section>
-  <h1>Me contacter </h1>
-  <p> Vous pouvez me contacter à l'adresse suivante : <a href="mailto:vendeman.mateo77@gmail.com">vendeman.mateo77@gmail.com </a> <br>
-  ou vous pouvez m'envoyer un message sur linkedid en scannant ce QR code :<a href="https://www.linkedin.com/in/mateo-vendeman-larbi-ben-hammou-a0810922a/"> <img src="qr_code.png"> </a></p>
-  <footer>
-    <h1> Mentions légales</h1>
-    <ul><li>www.python.org</li>
-      <li>svgsilh.com</li>
-    </ul>
-  </footer> 
-</body>     
+      </div>
+      <details class="parcours">
+        <summary><h2>Mon parcours</h2></summary>
+        <div class="timeline">
+          <div class="container gauche">
+            <img src="img/cdg.jpg">
+            <div class="text-box">
+              <h2>Lycée Charles de Gaulle</h2>
+              <small>20021-2024</small>
+              <p>Spécialités: Mathématiques et NSI</p>
+              <p>Section européenne(anglais)</p>
+              <p>Option Maths expertes</p>
+              <div class="fleche-gauche"></div>
+            </div>
+          </div>
+
+          <div class="container droite">
+            <img src="img/bac.jpg">
+            <div class="text-box">
+              <h2>Bac général</h2>
+              <small>En 2024</small>
+              <p>Mentions très bien</p>
+              <div class="fleche-droite"></div>
+            </div>
+          </div>
+
+          <div class="container gauche">
+            <img src="img/gustave.JPG">
+            <div class="text-box">
+              <h2>IUT Gustave Eiffel</h2>
+              <small>Depuis 2024</small>
+              <p>Formation : BUT informatique </p>
+              <p>Parcours réalisation d'applications : conception, développement, validation </p>
+              <div class="fleche-gauche"></div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+    </div>
+    <div id="projet" class="titre-projet">
+      <h1>Mes projets</h1>
+    </div>
+    <div class="liste_projet">
+
+      <input type="radio" id="tout" name="couleur">
+      <label for="tout"> Tout</label>
+
+      <input type="radio" id="web" name="couleur">
+      <label for="web"> Web</label>
+
+      <input type="radio" id="jeux" name="couleur">
+      <label for="jeux"> Jeux</label>
+
+      <input type="radio" id="algorithmes" name="couleur">
+      <label for="algorithmes"> Algorithmes</label>
+
+      <input type="radio" id="reseau" name="couleur">
+      <label for="reseau"> Réseau</label>
+
+      <div class="projet web">
+        <div class="img-txt-proj">
+          <img src="img/kyoto.png">
+          <h3>Réalisation d'un site de médiation culturel et numérique de la ville de kyto</h3>
+          <label for="check_pop_up1" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond1">
+            <div class="pop_up">
+              <h1>Projet Kyoto</h1>
+              <div class="text-image">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire ou nous étions 5 il fallait concevoir un site responsive et
+                    dynamique qui met en avant la culture de la ville de Kyoto</p>
+
+                  <h3>Taches réalisés</h3>
+                  <ul>Pour faire se site nous avons du :<li>créer un compte instagram pour que plus d'utilisateur vienne
+                      sur
+                      notre site</li>
+                    <li> Créer un trailer</li>
+                    <li>envoyer des formulaires pour connaitre les besoins des utilisateurs</li>
+                    <li> Faire attention à la securite de notre site</li>
+                  </ul>
+                </div>
+                <img src="img/kyoto.png">
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3>Outils utilisées</h3>
+                  </th>
+                  <th>
+                    <h3>Compétences developpés</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Github pour le versionning</li>
+                      <li>GanttProject pour l'organisation</li>
+                      <li>Discord pour les réunion</li>
+                      <li>Google Form pour les formulaires</li>
+                      <li>Canva pour la création du trailer</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Gestion d'équipe car j'etait le chef de projet</li>
+                      <li>L'analyse des besoins du client au travers de instagram et des formulaires</li>
+                      <li>Création de code sécurisé vu que notre base de données pour le site contenait le compte des
+                        utilisateurs</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up1" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="projet jeux">
+        <div class="img-txt-proj">
+          <img src="img/tetris.png">
+          <h3>Creation d'une copie de Tetris revisité avec plusieurs variantes sur le gameplay avec python et fltk</h3>
+          <label for="check_pop_up2" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond2">
+            <div class="pop_up">
+              <h1>Projet Tetris</h1>
+              <div class="text-image">
+                <img src="img/tetris.png" alt="tetris">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire il fallait concevoir plusieurs variantes du jeu Tetris
+                    comme
+                    un mode deux joueur avec uniquement la bibliothèque FLTK</p>
+
+                  <h3> Les Variantes principales</h3>
+                  <ul>
+                    <li>le jeu propose un mode deux joueurs permettant de s’affronter en simultané.</li>
+                    <li>Un mode “pourrissement” introduit une difficulté croissante : des blocs disparaissent
+                      aléatoirement et
+                      de plus en plus rapidement au fil du temps.</li>
+                    <li>Un mode “couleur” ajoute une règle inédite : pour supprimer des blocs, plusieurs pièces de la
+                      même
+                      couleur doivent être alignées côte à côte.</li>
+                  </ul>
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Pour l'organisation nous avons utiliser GanttProject </li>
+                      <li>Pour le développement Visual Studio</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Grâce à la gestion des rotations de pièces et la détection des contours de chaque pièce, j'ai
+                        pu
+                        améliorer mes compétences sur la création d'algorithme et le choix de structure de données.</li>
+                      <li> Aussi, puisqu'on était deux sur ce projet, j'ai pu apprendre à mieux collaborer et à gérer
+                        des
+                        projets</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+
+
+
+              <label for="check_pop_up2" class="close"> X </label>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="projet jeux">
+        <div class="img-txt-proj">
+          <img src="img/yams.png">
+          <h3>Yams</h3>
+          <label for="check_pop_up3" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond3">
+            <div class="pop_up">
+              <h1>Projet Yams</h1>
+              <div class="text-image">
+                <img src="img/yams.png" alt="Yams">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire il fallait concevoir plusieurs modification du jeu Yams
+                    comme
+                    un mode façe a une IA. Tout en implémentant une interface graphique avec javaFX</p>
+
+                  <h3> Les fonctionalités principales</h3>
+                  <ul>
+                    <li>le jeu propose un mode deux joueurs permettant d'affronter sois un joueur sois une IA en
+                      simultané.
+                    </li>
+                    <li>Ajout de nouvel combinaison qui donne des bonus.</li>
+                    <li>Ajout d'un systeme de multiplicateur de point pour le perdant plus l'ecart entre celui qui est
+                      entrain de gagner et celui qui perd est elever</li>
+                  </ul>
+
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Pour l'organisation nous avons utiliser GanttProject </li>
+                      <li>Pour le développement Eclipse</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>J'ai pu ameliorer ma caapaciter à gerer les erreurs dans le programme</li>
+                      <li> Aussi, puisqu'on était deux sur ce projet, j'ai pu apprendre à mieux collaborer et à gérer
+                        des
+                        projets</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up3" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="projet web">
+        <div class="img-txt-proj">
+          <img src="img/senior.png">
+          <h3>Senior Next Door</h3>
+          <label for="check_pop_up4" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond4">
+            <div class="pop_up">
+              <h1>Projet Senior Next Door</h1>
+              <div class="text-image">
+                <img src="img/senior.png" alt="Senior Next Door">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire il fallait concevoir un site de messagerie instantané pour
+                    des senior
+                    le but de ce projet était également de se familiariser avec la démarche en cycle V
+                  </p>
+
+                  <h3> Les fonctionalités principales</h3>
+                  <ul>Dans cette messagerie instantané le senior pouvait choisir :<li>son statut (en ligne, ne pas
+                      déranger,...)</li>
+                    <li> ajouter des amis</li>, <li>consulter les évenements futur dans un calendrier puis s'y inscrire
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Pour l'organisation nous avons utiliser GanttProject </li>
+                      <li>Pour la rédaction du cahier des charges et du tableau RACI nous avons utiliser google doc et
+                        google
+                        sheet</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>J'ai pu ameliorer ma capaciter à gerer une equipe </li>
+                      <li>Grace à la démarche en cycle V j'ai pu decouvrir un peu plus le milieu professionel </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up4" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet web">
+        <div class="img-txt-proj">
+          <img src="img/bdd.png">
+          <h3>Langues et cultures</h3>
+          <label for="check_pop_up5" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond5">
+            <div class="pop_up">
+              <h1>Langues et cultures</h1>
+              <div class="text-image">
+                <img src="img/bdd.png" alt="Senior Next Door">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire, il fallait concevoir un site dynamique qui permet de gérer
+                    les conférences, employés et matériel de la colloque
+                  </p>
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Visual studio </li>
+                      <li>google doc pour la rédaction de cahier des charges</li>
+                      <li>PGadmin4 pour la BDD</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Exploitation de base de données </li>
+                      <li>Création de site dynamique </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up5" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet algorithmes">
+        <div class="img-txt-proj">
+          <img src="img/graphe.png">
+          <h3>Création d'algorithmes pour la création d'automates </h3>
+          <label for="check_pop_up6" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond6">
+            <div class="pop_up">
+              <h1>Création d'algorithmes pour la création d'automates</h1>
+              <h1>Projet Senior Next Door</h1>
+              <div class="text-image">
+                <img src="img/senior.png" alt="Senior Next Door">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire il fallait concevoir un site de messagerie instantané pour
+                    des senior
+                    le but de ce projet était également de se familiariser avec la démarche en cycle V
+                  </p>
+                  <h3> Les fonctionalités principales</h3>
+                  <ul>Dans cette messagerie instantané le senior pouvait choisir :<li>son statut (en ligne, ne pas
+                      déranger,...)</li>
+                    <li> ajouter des amis</li>, <li>consulter les évenements futur dans un calendrier puis s'y inscrire
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Pour l'organisation nous avons utiliser GanttProject </li>
+                      <li>Pour la rédaction du cahier des charges et du tableau RACI nous avons utiliser google doc et
+                        google
+                        sheet</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>J'ai pu ameliorer ma capaciter à gerer une equipe </li>
+                      <li>Grace à la démarche en cycle V j'ai pu decouvrir un peu plus le milieu professionel </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up6" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projet reseau">
+        <div class="img-txt-proj">
+          <img src="img/reseau.png">
+          <h3>Simulation d'un serveur web </h3>
+          <label for="check_pop_up7" class="btn">
+            En savoir plus
+          </label>
+          <div class="fond7">
+            <div class="pop_up">
+              <h1>Simulation d'un serveur web</h1>
+              <h1>Projet Senior Next Door</h1>
+              <div class="text-image">
+                <img src="img/senior.png" alt="Senior Next Door">
+                <div class="text">
+                  <h3>Objectif</h3>
+                  <p>Dans le cadre d'un projet universitaire il fallait concevoir un site de messagerie instantané pour
+                    des senior
+                    le but de ce projet était également de se familiariser avec la démarche en cycle V
+                  </p>
+                  <h3> Les fonctionalités principales</h3>
+                  <ul>Dans cette messagerie instantané le senior pouvait choisir :<li>son statut (en ligne, ne pas
+                      déranger,...)</li>
+                    <li> ajouter des amis</li>, <li>consulter les évenements futur dans un calendrier puis s'y inscrire
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <table>
+                <tr>
+                  <th>
+                    <h3> Les technologies utilisées</h3>
+                  </th>
+                  <th>
+                    <h3> Les compétences développées</h3>
+                  </th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Pour l'organisation nous avons utiliser GanttProject </li>
+                      <li>Pour la rédaction du cahier des charges et du tableau RACI nous avons utiliser google doc et
+                        google
+                        sheet</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>J'ai pu ameliorer ma capaciter à gerer une equipe </li>
+                      <li>Grace à la démarche en cycle V j'ai pu decouvrir un peu plus le milieu professionel </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <label for="check_pop_up7" class="close"> X </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="contact">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+      <div class="titre">
+        <h3>Me contacter</h3>
+        <hr>
+      </div>
+      <input type="hidden" name="access_key" value="c44b28ae-4fae-411a-bf33-9cea89b306d8">
+      <input type="text" name="nom" placeholder="Votre nom" class="contact-input" required>
+      <input type="text" name="email" placeholder="Votre mail" class="contact-input" required>
+      <textarea name="message" placeholder="Votre message" class="contact-input" required></textarea>
+      <button type="submit">Envoyer <img src="img/envoyer.png" alt="fleche"></button>
+    </form>
+  </footer>
+</body>
+
 </html>
-         
