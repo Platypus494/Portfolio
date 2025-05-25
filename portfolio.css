@@ -443,7 +443,7 @@ details[open]>summary:before {
     height: 450px;
     margin: 10px;
     text-align: center;
-    overflow: scroll;
+    overflow: auto;
     background-color: black;
 }
 
@@ -795,6 +795,10 @@ textarea {
 }
 
 @media (max-width:600px) {
+    .projet {
+        height:auto;
+        padding-bottom:10px;
+    }
 
     .timeline {
         margin: 50px auto;
