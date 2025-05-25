@@ -691,6 +691,7 @@ footer {
     justify-content: space-evenly;
     padding-bottom: 30px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .contact {
