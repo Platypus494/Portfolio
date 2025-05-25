@@ -759,6 +759,11 @@ textarea {
     width: auto;
 }
 
+.linkedin {
+    height: 100px;
+    width: 100px;
+}
+
 @media (max-width: 900px) {
     .Presentation img {
         width: 35%;
@@ -789,15 +794,15 @@ textarea {
     .projet {
         width: 40%;
         height: 320px;
-        font-size:12px;
+        font-size: 12px;
     }
 
 }
 
 @media (max-width:600px) {
     .projet {
-        height:auto;
-        padding-bottom:10px;
+        height: auto;
+        padding-bottom: 10px;
     }
 
     .timeline {
