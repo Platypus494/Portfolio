@@ -129,6 +129,12 @@ img {
     text-align: center;
 }
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
 .titre-projet {
     text-align: center;
 }
@@ -294,10 +300,6 @@ section .contenu {
     animation-delay: 2s;
 }
 
-.container:nth-child(4) {
-    animation-delay: 3s;
-}
-
 
 
 .text-box {
@@ -339,7 +341,7 @@ section .contenu {
     left: 50%;
     margin-left: -3px;
     z-index: 10;
-    animation: moveline 4s linear forwards;
+    animation: moveline 3.5s linear forwards;
 }
 
 @keyframes moveline {
@@ -370,7 +372,7 @@ section .contenu {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-left: 15px solid white;
-    right: -15px
+    right: -15px;
 }
 
 .fleche-droite {
@@ -382,7 +384,7 @@ section .contenu {
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
     border-right: 15px solid white;
-    left: -15px
+    left: -15px;
 }
 
 .text-image {
@@ -440,7 +442,7 @@ details[open]>summary:before {
 
 .projet {
     width: 30%;
-    height: 450px;
+    height: 470px;
     margin: 10px;
     text-align: center;
     overflow: auto;
@@ -537,8 +539,8 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 }
 
 .btn {
-    background-color: var(- blue);
     cursor: pointer;
+    padding: 10px;
 }
 
 .fond1,
@@ -572,6 +574,7 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
     text-align: center;
     background-color: #080808;
     overflow-y: auto;
+    font-size: 20px;
 }
 
 .pop_up ul {
@@ -581,6 +584,10 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 }
 
 
+.web .btn {
+    background-color: #E44D26;
+}
+
 .web .pop_up h1 {
     color: #E44D26;
 }
@@ -588,7 +595,11 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 .web .pop_up h3 {
     width: 100%;
     color: #E44D26;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.jeux .btn {
+    background-color: #F5A623;
 }
 
 .jeux .pop_up h1 {
@@ -598,17 +609,25 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 .jeux .pop_up h3 {
     width: 100%;
     color: #F5A623;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.reseau .btn {
+    background-color: #4A90E2;
 }
 
 .reseau .pop_up h3 {
     width: 100%;
     color: #4A90E2;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .reseau .pop_up h1 {
     color: #4A90E2;
+}
+
+.algorithmes .btn {
+    background-color: #9013FE;
 }
 
 .algorithmes .pop_up h1 {
@@ -618,7 +637,7 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 .algorithmes .pop_up h3 {
     width: 100%;
     color: #9013FE;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .pop_up .text {
@@ -660,7 +679,7 @@ input[type="radio"][id="algorithmes"]:checked~.jeux {
 }
 
 .projet .text {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 
@@ -775,9 +794,14 @@ textarea {
         font-size: 14px;
     }
 
+    .Menu_competence nav label {
+        line-height: normal;
+    }
+
 }
 
 @media (max-width: 700px) {
+
 
 
     .Menu_competence {
@@ -795,6 +819,13 @@ textarea {
     .projet {
         width: 40%;
         height: 320px;
+        font-size: 12px;
+    }
+
+    .algorithmes .pop_up h3,.web .pop_up h3,.jeux .pop_up h3,.reseau .pop_up h3{
+        font-size: 20px;
+    }
+    .projet .text,.pop_up{
         font-size: 12px;
     }
 
